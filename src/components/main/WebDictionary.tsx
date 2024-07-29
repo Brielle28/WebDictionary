@@ -187,7 +187,7 @@ const WebDictionary = () => {
                   </h1>
                   <a
                     href={source}
-                    className="text-lg font-serif font-medium text-purple-600 underline"
+                    className="text-lg font-serif font-medium text-purple-600 underline w-[200px]"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
