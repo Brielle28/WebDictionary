@@ -68,7 +68,7 @@ const WebDictionary = () => {
   };
 
   return (
-    <div className="main-container flex flex-col items-center justify-center bg-white pb-96">
+    <div className="main-container flex flex-col items-center justify-center bg-white pb-[440px]">
       <div className="w-full sm:w-11/12 md:w-2/3 lg:w-1/2 mt-16 px-5">
         <div className="first-div flex flex-row items-center justify-between w-full gap-0">
           <div className="flex flex-row items-center justify-center gap-5">
@@ -79,13 +79,13 @@ const WebDictionary = () => {
           </div>
         </div>
 
-        <div className="w-full flex items-center justify-center relative mt-10">
+        <div className="w-full flex items-center justify-center relative mt-10 mr-[50px] ">
           <input
             type="text"
             value={word}
             onChange={(e) => setWord(e.target.value)}
             placeholder="Search for a word..."
-            className="custom-placeholder bg-purple-100 rounded-lg h-12 focus:outline-none w-11/12 sm:w-full md:w-10/12 lg:w-9/12 pl-6 text-black font-[Poppins]"
+            className="custom-placeholder bg-purple-100 rounded-lg h-12 focus:outline-none w-11/12 sm:w-full md:w-10/12 lg:w-full pl-6 text-black font-[Poppins]"
             onKeyPress={(e) => {
               if (e.key === "Enter") {
                 handleSubmit();
